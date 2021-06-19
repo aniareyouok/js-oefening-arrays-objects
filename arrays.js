@@ -3,19 +3,22 @@
 // ==========================================
 
 let yearOfBirthChildren = [1951, 1947, 1964, 1953];
-
 console.log(yearOfBirthChildren);
 
 // ==========================================
 // 2. Declareer een variabele en sla daar een array met drie van jouw hobbies (zoals muziek luisteren en koekjes eten) in op. Log dit in de terminal.
 // ==========================================
 
+let hobbys = ['kajaken', 'lekker eten', 'series kijken'];
+console.log(hobbys);
 
 // ==========================================
 // 3a. Declareer een variabele met daarin een array met de waardes 3, 4, 5, 7 en 2
 // 3b. Zorg er nu voor dat je de eerste waarde uit die array in de terminal logt             // geeft 3
 // ==========================================
 
+let randomNumbers = [3, 4, 5, 7, 2];
+console.log(randomNumbers[0]);
 
 // ==========================================
 // 4a. Declareer een variabele met daarin een array met de waardes groen, geel, rood, paars, blauw en oranje.
@@ -24,6 +27,9 @@ console.log(yearOfBirthChildren);
 // 4c. Zorg ervoor dat je de tweede waarde uit bovenstaande array in de terminal logt       // geeft geel
 // ==========================================
 
+let differentColours = ['groen', 'geel', 'rood', 'paars', 'blauw', 'oranje'];
+console.log(differentColours[4]);
+console.log(differentColours[1]);
 
 // ==========================================
 // 5a. Declareer een variabele met daarin een array met de waardes 21, 22, 23, 25, 25 en log dit in de terminal
@@ -31,6 +37,9 @@ console.log(yearOfBirthChildren);
 // 5c. Log de array in de terminal                                                          // geeft [ 21, 22, 23, 24, 25 ]
 // ==========================================
 
+let counting = [21, 22, 23, 25, 25];
+counting[3] = 24;
+console.log(counting);
 
 // ==========================================
 // 6a. Declareer een variabele met daarin een array met de waardes bladerdeeg, knoflook, spinazie
@@ -38,3 +47,8 @@ console.log(yearOfBirthChildren);
 // 6c. Log de de array in de terminal                                                       // geeft [ 'lasagne bladen', 'knoflook', 'spinazie' ]
 // 6d. Log de lengte van de array in de terminal                                            // geeft 3
 // ==========================================
+
+let ingredienten = ['bladerdeeg', 'knoflook', 'spinazie'];
+ingredienten[0] = 'lasagen bladen';
+console.log(ingredienten);
+console.log(ingredienten.length);
