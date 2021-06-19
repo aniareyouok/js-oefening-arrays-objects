@@ -2,6 +2,9 @@
 // 1. Declareer een variabele en sla daar een array met vier jaartallen (zoals 2021) in op. Log dit in de terminal.
 // ==========================================
 
+let yearOfBirthChildren = [1951, 1947, 1964, 1953];
+
+console.log(yearOfBirthChildren);
 
 // ==========================================
 // 2. Declareer een variabele en sla daar een array met drie van jouw hobbies (zoals muziek luisteren en koekjes eten) in op. Log dit in de terminal.
